@@ -10,10 +10,11 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const jwt = require("jsonwebtoken");
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: true }));
+router.use(bodyParser.urlencoded({ extended: true }));
 // parse application/json
-app.use(bodyParser.json());
-app.use(
+router.use(bodyParser.json());
+
+router.use(
   cors({
     credentials: true,
     origin: ["http://localhost:4200/"],
