@@ -16,8 +16,11 @@ router.use(bodyParser.json());
 
 router.use(
   cors({
+    // credentials: true,
+    // origin: ["http://localhost:4200/"],
+    origin: "*",
     credentials: true,
-    origin: ["http://localhost:4200/"],
+    optionSuccessStatus: 200,
   })
 );
 
