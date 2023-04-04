@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(
   cors({
     credentials: true,
-    origin: ["https://resplendent-puffpuff-15f302.netlify.app/"],
+    origin: ["http://localhost:4200/"],
   })
 );
 
