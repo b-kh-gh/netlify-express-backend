@@ -1,6 +1,6 @@
 const express = require("express");
 const serverless = require("serverless-http");
-// import { sample_foods, sample_tags, sample_users } from "./data";
+
 const { sample_foods, sample_tags, sample_users } = require("./data");
 
 const app = express();
@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(
   cors({
     credentials: true,
-    origin: ["https://statuesque-baklava-043232.netlify.app/"],
+    origin: ["https://resplendent-puffpuff-15f302.netlify.app/"],
   })
 );
 
