@@ -6,6 +6,20 @@ const { sample_foods, sample_tags, sample_users } = require("./data");
 const app = express();
 const router = express.Router();
 
+const bodyParser = require("body-parser");
+const cors = require("cors");
+const jwt = require("jsonwebtoken");
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }));
+// parse application/json
+app.use(bodyParser.json());
+app.use(
+  cors({
+    credentials: true,
+    origin: ["https://statuesque-baklava-043232.netlify.app/"],
+  })
+);
+
 //get All foods
 router.get("/foods", (req, res) => {
   res.send(sample_foods);
@@ -40,7 +54,7 @@ router.get("/foods/:foodId", (req, res) => {
 });
 
 //login api
-router.post("/api/users/login", (req, res) => {
+router.post("/users/login", (req, res) => {
   //var query = {email:req.body.email, password:req.body.password};
 
   let email = req.body.email;
