@@ -101,7 +101,7 @@ export const sample_tags = [
 ];
 export const sample_users = [
   {
-    name: "b kh",
+    name: "کاربر عادی",
     email: "bahareh@gmail.com",
     password: "123456",
     address: "iran",
