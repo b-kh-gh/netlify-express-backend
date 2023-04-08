@@ -8,7 +8,7 @@ export const sample_foods = [
     origins: ["ایتالیا"],
     stars: 4,
     imageUrl: "assets/images/food-1.jpg",
-    tags: ["فست فود", "پیتزا"],
+    tags: ["فست فود", "پیتزا", "همه"],
   },
   {
     id: "2",
@@ -19,7 +19,7 @@ export const sample_foods = [
     origins: ["آسیا", "ایران", "چین"],
     stars: 4,
     imageUrl: "assets/images/food-2.jpg",
-    tags: ["غذای راحت", "ناهار"],
+    tags: ["غذای راحت", "ناهار", "همه"],
   },
   {
     id: "3",
@@ -30,7 +30,7 @@ export const sample_foods = [
     origins: ["المان", "آمریکا"],
     stars: 3,
     imageUrl: "assets/images/food-3.jpg",
-    tags: ["فستفود", "همبرگر"],
+    tags: ["فستفود", "همبرگر", "همه"],
   },
   {
     id: "4",
@@ -41,7 +41,7 @@ export const sample_foods = [
     origins: ["بلژیک", "فرانسه"],
     stars: 3,
     imageUrl: "assets/images/food-4.jpg",
-    tags: ["فستفود", "سرخ شده"],
+    tags: ["فستفود", "سرخ شده", "همه"],
   },
   {
     id: "5",
@@ -52,7 +52,7 @@ export const sample_foods = [
     origins: ["هند", "آسیا"],
     stars: 3.0,
     imageUrl: "assets/images/food-5.jpg",
-    tags: ["غذای راحت", "سوپ"],
+    tags: ["غذای راحت", "سوپ", "همه"],
   },
   {
     id: "6",
@@ -63,7 +63,7 @@ export const sample_foods = [
     origins: ["ایتالیا"],
     stars: 4.0,
     imageUrl: "assets/images/food-6.jpg",
-    tags: ["فستفود", "پیتزا", "ناهار"],
+    tags: ["فستفود", "پیتزا", "ناهار", "همه"],
   },
   {
     id: "7",
@@ -74,7 +74,7 @@ export const sample_foods = [
     origins: ["هند"],
     stars: 4.0,
     imageUrl: "assets/images/food-7.jpg",
-    tags: ["فستفود", "همبرگر", "ناهار"],
+    tags: ["فستفود", "همبرگر", "ناهار", "همه"],
   },
   {
     id: "8",
@@ -85,7 +85,7 @@ export const sample_foods = [
     origins: ["هند"],
     stars: 4.0,
     imageUrl: "assets/images/food-8.jpg",
-    tags: ["فستفود", "پیتزا", "ناهار"],
+    tags: ["فستفود", "پیتزا", "ناهار", "همه"],
   },
 ];
 
